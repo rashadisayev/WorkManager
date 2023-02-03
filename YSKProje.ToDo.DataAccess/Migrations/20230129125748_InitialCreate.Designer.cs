@@ -10,8 +10,8 @@ using YSKProje.ToDo.DataAccess.Concrete.EntityFrameworkCore.Contexts;
 namespace YSKProje.ToDo.DataAccess.Migrations
 {
     [DbContext(typeof(TodoContext))]
-    [Migration("20210408191459_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20230129125748_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
