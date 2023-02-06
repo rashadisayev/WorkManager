@@ -10,6 +10,7 @@ namespace YSKProje.ToDo.Business.CustomLogger
     {
         public void LogError( string message)
         {
+            //
           Logger  logger=  LogManager.GetLogger("loggerFile");
             logger.Log(LogLevel.Error, message);
         }
