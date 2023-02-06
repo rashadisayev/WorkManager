@@ -55,7 +55,7 @@ namespace YSKProje.ToDo.Web.Areas.Admin.Controllers
         public IActionResult IsYarat()
         {
             TempData["Active"] = TempDataInfo.IS;
-
+                
             ViewBag.Vacikliks = new SelectList(_vaciblikService.GetirHepsi(), "Id", "Ifade");
             return View(new IsAddDTO());
         }
